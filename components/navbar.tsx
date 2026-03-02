@@ -17,12 +17,12 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link href="/login" className="text-sm text-zinc-400 hover:text-white transition-colors hidden sm:block">
+          <a href="https://get-flowlog.vercel.app/" className="text-sm text-zinc-400 hover:text-white transition-colors hidden sm:block">
             Log in
-          </Link>
-          <button className="px-4 py-2 bg-white text-zinc-950 text-sm font-medium rounded-full hover:bg-zinc-200 transition-colors">
+          </a>
+          <a href="https://get-flowlog.vercel.app/" className="px-4 py-2 bg-white text-zinc-950 text-sm font-medium rounded-full hover:bg-zinc-200 transition-colors">
             Sign Up
-          </button>
+          </a>
         </div>
       </div>
     </header>

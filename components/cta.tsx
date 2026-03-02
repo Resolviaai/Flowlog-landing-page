@@ -35,10 +35,10 @@ export function CTA() {
           transition={{ delay: 0.2 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <button className="w-full sm:w-auto px-8 py-4 bg-white text-zinc-950 rounded-full font-medium flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors group">
+          <a href="https://get-flowlog.vercel.app/" className="w-full sm:w-auto px-8 py-4 bg-white text-zinc-950 rounded-full font-medium flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors group">
             Get Started for Free
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
           <p className="text-sm text-zinc-500 sm:ml-4">No credit card required.</p>
         </motion.div>
       </div>
